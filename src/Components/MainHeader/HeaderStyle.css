@@ -1,0 +1,62 @@
+.banner{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100%;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-transform: uppercase;
+    /* background:rgba(0,0,0,0.7)url("https://images.wallpaperscraft.com/image/single/gym_dumbbells_inventory_219519_3840x2400.jpg");    */
+    background:rgba(0,0,0,0.5)url("https://images.wallpaperscraft.com/image/single/dumbbells_gym_fitness_220152_2560x1440.jpg");   
+    background-blend-mode: darken;
+    margin-top: -80px;
+    text-transform: uppercase;
+}
+
+.content{
+    display: flex;
+    align-items: center;
+    justify-content:center;
+    width: 70vw;
+    height: 70vh;
+    background-color: transparent;
+    
+}
+.content .innerText{
+    background-color: transparent;
+    
+}
+.content .innerText h1{
+    background-color: transparent;
+    font-size: 42px;
+    
+    
+}   
+.content .innerText P{
+    font-size: 21px;
+    background-color: transparent;
+    color: #73777B;
+    font-weight: 600;
+}
+.content .innerText button{
+    width: 8rem;
+    height: 3rem;
+    padding: 5px;
+    margin-top: 1.5rem;
+    background-color: transparent;
+    border:1px solid white;
+    transition: 0.3s ease-in-out;
+}
+.content .innerText button:hover{
+    /* background-color: rgb(236, 150, 188); */
+    background-color: white;
+    color : black;
+    font-weight: 700;
+    transition: 0.3s ease-in-out;
+}
+
+
+
+

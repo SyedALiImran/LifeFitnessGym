@@ -1,0 +1,27 @@
+:root{
+    --backgroundColor:#010101;
+    --contentColor:#ffffff;
+    --XXColor:#191919;
+  }
+.parentAbout{
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+  .gymInfo{
+    margin-top:3rem;
+  }
+  .gymInfo img{
+    margin-top:1rem;
+  }
+.about_Text h1{
+  padding: 5px;
+  
+  text-transform: uppercase;
+}
+  .about_Text p{
+    margin-top: 1.5rem;
+    color: #73777B;  
+  }
