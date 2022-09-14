@@ -5,6 +5,7 @@ import React from 'react'
 import Cards from '../Components/Cards/Cards'
 import Header from '../Components/MainHeader/Header'
 import AboutPage from './AboutPage'
+import Contact from './Contact'
 
 // -- Styles 
 import './Styles/HomeStyle.css'
@@ -15,6 +16,8 @@ const Home = () => {
     <Header/>
     <AboutPage/>
     <Cards/>
+    <Contact/>
+  
     
     </>
   )

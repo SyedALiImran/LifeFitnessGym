@@ -55,6 +55,13 @@
 }
 
 
+@media screen and (max-width:992px) {
+    .card{
+        margin: 1rem;
+    }
+}
+
+
 @media screen and (max-width: 600px) {
 .card{
     margin: 1rem;

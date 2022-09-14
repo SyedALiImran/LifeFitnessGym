@@ -6,6 +6,7 @@ import '../../../node_modules/bootstrap/dist/css/bootstrap.min.css'
 
 // -- card data object 
 import {programs} from '../Cards/objects'
+import { Link } from "react-router-dom";
 
 const Cards = () => {
   return (
@@ -26,7 +27,7 @@ const Cards = () => {
           <p className="card-text">
             {program.detail}
           </p>
-            <button className="btn btn-primary form-control subCriptnBtn">Subscription</button>
+          <Link to='/cards'><button className="btn btn-primary form-control subCriptnBtn">Subscription</button></Link>
         </div>
       </div>
         </div>
