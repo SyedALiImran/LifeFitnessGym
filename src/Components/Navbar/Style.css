@@ -17,7 +17,7 @@ header{
     padding: 0 2rem;
     text-transform: uppercase;
 }
-header h2{
+header h3{
     background-color: transparent;
 }
 nav{
@@ -27,7 +27,7 @@ nav{
 
 nav a {
     background-color: transparent;
-    margin: 0 2rem;
+    margin: 0 1rem;
     text-decoration: none;
     transition: 0.3s ease-in-out;
     color: var(--contentColor);  

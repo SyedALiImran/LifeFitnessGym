@@ -1,5 +1,7 @@
 import "./Styles/AboutStyle.css";
 
+import '../../node_modules/bootstrap/dist/css/bootstrap.min.css'
+
 const AboutPage = () => {
   return (
     <>

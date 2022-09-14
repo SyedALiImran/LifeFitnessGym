@@ -2,7 +2,7 @@ import React from 'react'
 
 // -- pages
 
-// import Cards from '../Components/Cards/Cards'
+import Cards from '../Components/Cards/Cards'
 import Header from '../Components/MainHeader/Header'
 import AboutPage from './AboutPage'
 
@@ -14,7 +14,8 @@ const Home = () => {
     <>
     <Header/>
     <AboutPage/>
-    {/* <Cards/> */}
+    <Cards/>
+    
     </>
   )
 }

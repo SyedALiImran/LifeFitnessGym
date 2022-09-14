@@ -20,7 +20,7 @@ const Navbar = () => {
 
   return (
     <header>
-      <h2>Life Fitness Gym</h2>
+      <h3>Life Fitness Gym</h3>
       <nav ref={navRef}>
         <a href="/">programs</a>
         <a href="/">trainers</a>
