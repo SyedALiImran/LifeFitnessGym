@@ -58,5 +58,32 @@
 }
 
 
+/* // -- media  */
 
+    @media screen and (max-width: 992px) {
+        .content .innerText h1{
+        
+            font-size: 36px;
+            
+            
+        }   
+        .content .innerText P{
+            font-size: 18px;
+        
+        }
+    }
+
+
+    @media screen and (max-width: 600px) {
+        .content .innerText h1{
+        
+            font-size: 26px;
+            
+            
+        }   
+        .content .innerText P{
+            font-size: 14px;
+        
+        }
+    }
 

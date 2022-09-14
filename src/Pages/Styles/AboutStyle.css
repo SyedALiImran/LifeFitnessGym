@@ -25,3 +25,15 @@
     margin-top: 1.5rem;
     color: #73777B;  
   }
+
+
+
+
+  @media screen and (max-width: 992px) {
+    .about_Text p{
+      margin-top: 10px;
+      color: #73777B;  
+    }
+}
+
+

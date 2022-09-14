@@ -13,7 +13,7 @@ const Cards = () => {
     <div className="container">
       <div className="cards_parent">
     <div className="carddd">
-      <h2>Programs</h2>
+      <h1>Programs</h1>
       <div className="row aptDe">
       {/* style={{width: '18rem'}} */}
       { programs.map((program,key)=>{
