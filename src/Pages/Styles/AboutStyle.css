@@ -4,35 +4,54 @@
     --XXColor:#191919;
   }
 .parentAbout{
-  width: 100%;
-  height: 100vh;
+  /* width: 100%;
+  height: 100vh; */
   display: flex;
   align-items: center;
   justify-content: center;
 }
   .gymInfo{
-    margin-top:3rem;
+    margin-top:2rem;
   }
   .gymInfo img{
-    margin-top:1rem;
+    margin-top:0rem;
   }
-.about_Text h1{
-  padding: 5px;
-  
+.about_Text h2{
+  padding: 0px;
   text-transform: uppercase;
+  
 }
   .about_Text p{
-    margin-top: 1.5rem;
+    margin-top: 1rem;
     color: #73777B;  
   }
 
-
+.imggg{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url('https://media.istockphoto.com/photos/muscular-man-working-out-in-gym-doing-exercises-picture-id1080461618?k=6&m=1080461618&s=170667a&w=0&h=F8z1zxOURxPsosi0d-RPkwcEUo1kxMx7SGXlp22133Q=');
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+}
 
 
   @media screen and (max-width: 992px) {
     .about_Text p{
       margin-top: 10px;
       color: #73777B;  
+    }
+    /* .imggg{
+      background-image: url('https://th.bing.com/th/id/R.f710edf6ff833c56d436232c7c928535?rik=iIUxGyziW22aeg&pid=ImgRaw&r=0');
+    } */
+
+}
+  @media screen and (max-width: 600px) {
+    
+    .about_Text h2{
+      margin-top: 1rem;
+      
     }
 }
 
