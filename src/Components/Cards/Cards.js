@@ -10,7 +10,7 @@ import {programs} from '../Cards/objects'
 const Cards = () => {
   return (
     <>
-    <div className="container mns">
+    <div className="container cards_parent " id="programs">
       <div className="cards_parent">
     <div className="carddd">
       <h2>Programs</h2>

@@ -5,7 +5,7 @@ import '../../node_modules/bootstrap/dist/css/bootstrap.min.css'
 const AboutPage = () => {
   return (
     <>
-      <div className="container parentAbout">
+      <div className="container parentAbout" id="about">
         <div className="gymInfo">
        
           <div className="row">

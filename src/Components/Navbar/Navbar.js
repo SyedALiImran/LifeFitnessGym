@@ -22,9 +22,8 @@ const Navbar = () => {
     <header>
       <h3>Life Fitness Gym</h3>
       <nav ref={navRef}>
-        <a href="/">programs</a>
-        <a href="/">trainers</a>
-        <a href="/about">About us</a>
+        <a href="#programs">programs</a>
+        <a href="#about">About us</a>
         <a href="/">Contact Us</a>
         <button className='nav-btn nav-close-btn' onClick={showNavbar} ><FaTimes size={24}/></button>
       </nav>
